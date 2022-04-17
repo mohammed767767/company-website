@@ -12,6 +12,11 @@
 body {
     font-family: "cairoFont", 'Cambria, Cochin, Georgia, Times, Times New Roman, serif' !important;
 }
+.logo{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+}
 
 .container-fluid {
     padding-right: 0px !important;
@@ -196,39 +201,6 @@ body {
     overflow: hidden;
 }
 
-.said-about-company {
-    .custom-img {
-        border-radius: 10px;
-        margin: 20px;
-    }
-
-    .custom-paragraph {
-        line-height: 2em;
-    }
-
-    .fa-angle-right,
-    .fa-angle-left {
-        color: #252222;
-    }
-
-    a.carousel-control-next {
-        position: absolute;
-        left: 7%;
-        width: 0;
-    }
-    
-    a.carousel-control-prev {
-        position: absolute;
-        right: 7%;
-        width: 0;
-    }
-    
-}
-
-.clients {
-    background-color: #419B9B;
-}
-
 .latest-posts {
     .card-body {
         width: 90%;
@@ -247,6 +219,10 @@ body {
     .card-text {
         font-size: 14px;
     }
+}
+
+.clients {
+    background-color: #419B9B;
 }
 
 footer {
